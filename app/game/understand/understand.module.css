@@ -1,0 +1,18 @@
+.firework {
+  position: fixed;
+  font-size: 2rem;
+  pointer-events: none;
+  animation: fireworkFall var(--duration, 2s) ease-in forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+@keyframes fireworkFall {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--sway, 0px), 100vh) rotate(360deg);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,7 @@
+# Public 文件夹
+
+此文件夹用于存放静态资源，如图片、字体等。
+
+在 Next.js 中，放在 public 文件夹中的文件可以通过根路径 `/` 直接访问。
+
+例如：`public/images/logo.png` 可以通过 `/images/logo.png` 访问。
