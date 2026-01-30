@@ -19,12 +19,12 @@ interface Question {
 }
 
 const questions: Question[] = [
-  { id: 1, question: '我最喜欢的颜色是？', options: ['欲望红', '青天蓝', '猛男粉', '葱绿'], correctAnswer: 2 },
-  { id: 2, question: '我最喜欢的食物是？', options: ['火锅', '寿司', '烧烤', '甜品'], correctAnswer: 3 },
-  { id: 3, question: '我的王者最高段位是？', options: ['绝世王者', '无双王者', '荣耀王者', '最强王者'], correctAnswer: 3 },
-  { id: 4, question: '我最喜欢的季节是？', options: ['春天', '夏天', '秋天', '冬天'], correctAnswer: 4 },
-  { id: 5, question: '我最喜欢的动物是？', options: ['猫咪', '狗狗', '兔子', '熊猫'], correctAnswer: 1 },
-  { id: 5, question: '我有多少双鞋子？', options: ['4双', '5双', '6双', '7双'], correctAnswer: 4 },
+  { id: 1, question: '我最喜欢的颜色是？', options: ['欲望红', '青天蓝', '猛男粉', '葱绿'], correctAnswer: 1 },
+  { id: 2, question: '我最喜欢的食物是？', options: ['火锅', '寿司', '烧烤', '甜品'], correctAnswer: 2 },
+  { id: 3, question: '我的王者最高段位是？', options: ['绝世王者', '无双王者', '荣耀王者', '最强王者'], correctAnswer: 2 },
+  { id: 4, question: '我最喜欢的季节是？', options: ['春天', '夏天', '秋天', '冬天'], correctAnswer: 3 },
+  { id: 5, question: '我最喜欢的动物是？', options: ['猫咪', '狗狗', '兔子', '熊猫'], correctAnswer: 0 },
+  { id: 5, question: '我有多少双鞋子？', options: ['4双', '5双', '6双', '7双'], correctAnswer: 3 },
 ];
 
 export default function UnderstandGame() {
