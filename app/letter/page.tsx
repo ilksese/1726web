@@ -35,7 +35,7 @@ export default function LoveLetter() {
       if (isAnniversary || now > targetDate) {
         // 增加关卡全通检查
         const progress = getMergedProgress();
-        const allCompleted = progress.levels.every((l) => l.completed);
+        const allCompleted = progress.levels.every((l) => l.unlocked);
 
         if (allCompleted) {
           setIsUnlocked(true);
